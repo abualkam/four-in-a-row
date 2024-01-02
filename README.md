@@ -1,8 +1,8 @@
-#Four in a row
-##How to play game
+# Four in a row
+## How to play game
 
-###Winning state
+### Winning state
 
-##How to run
+## How to run
 
 
