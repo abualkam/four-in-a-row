@@ -3,10 +3,13 @@
 This file gathers all parts of the game
 """
 
-from ex12.gui import *
-import tkinter as tk
+from Gamegui.gui import *
 if __name__ == '__main__':
-    
-    root = tk.Tk()
-    gui = Gui(root)
-    root.mainloop()
+    menu = Menu()
+    menu.mainloop()
+    board = Board(Game())
+    board.mainloop()
+    while board.play_again():
+        board = Board(Game())
+        board.mainloop()
+
